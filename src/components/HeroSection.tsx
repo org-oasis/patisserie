@@ -51,13 +51,13 @@ const HeroSection = () => {
             </Button>
           </div>
         </div>
+      </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in-delay-3">
-          <div className="flex flex-col items-center gap-2 text-muted-foreground">
-            <span className="text-sm font-body tracking-wide">Discover</span>
-            <div className="w-px h-8 bg-gradient-to-b from-accent to-transparent" />
-          </div>
+      {/* Scroll Indicator */}
+      <div className="hidden md:block absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in-delay-3">
+        <div className="flex flex-col items-center gap-2 text-muted-foreground">
+          <span className="text-sm font-body tracking-wide">Discover</span>
+          <div className="w-px h-8 bg-gradient-to-b from-accent to-transparent" />
         </div>
       </div>
     </section>
