@@ -70,16 +70,7 @@ const Footer = () => {
 
           {/* Legal */}
           <div className="text-sm opacity-60 space-y-2">
-            <p>© 2024 La Pâtisserie Parisienne. {t.footer.rights}</p>
-            <div className="flex gap-4 justify-center">
-              <a href="#" className="hover:opacity-100 transition-opacity">
-                {t.footer.privacy}
-              </a>
-              <span>•</span>
-              <a href="#" className="hover:opacity-100 transition-opacity">
-                {t.footer.legal}
-              </a>
-            </div>
+            <p>© 2026 La Pâtisserie Parisienne. {t.footer.rights}</p>
           </div>
         </div>
       </div>
