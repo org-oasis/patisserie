@@ -14,7 +14,7 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-chocolate text-cream">
+    <section className="py-8 bg-chocolate text-cream">
       <div className="section-container">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">

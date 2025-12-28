@@ -61,7 +61,7 @@ const GallerySection = () => {
       : pastries.filter((p) => p.categoryKey === activeCategory);
 
   return (
-    <section id="creations" className="py-24 bg-background">
+    <section id="creations" className="py-8 bg-background">
       <div className="section-container">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
@@ -93,7 +93,7 @@ const GallerySection = () => {
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-6">
           {filteredPastries.map((pastry) => {
             const item = t.gallery.items[pastry.categoryKey as keyof typeof t.gallery.items];
             return (
@@ -108,11 +108,11 @@ const GallerySection = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="heading-card text-foreground mt-2 mb-2">
+                <div className="p-3 md:p-5">
+                  <h3 className="heading-card text-base md:text-lg text-foreground mt-2 mb-2">
                     {item.name}
                   </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                  <p className="text-muted-foreground text-xs md:text-sm leading-relaxed line-clamp-2 md:line-clamp-none">
                     {item.description}
                   </p>
                 </div>

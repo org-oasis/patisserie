@@ -5,7 +5,7 @@ const TestimonialsSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="py-24 bg-background">
+    <section className="py-8 bg-background">
       <div className="section-container">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">

@@ -6,7 +6,7 @@ const AboutSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="about" className="py-24 bg-gradient-cream">
+    <section id="about" className="py-8 bg-gradient-cream">
       <div className="section-container">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image */}
