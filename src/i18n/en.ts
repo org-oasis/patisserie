@@ -156,7 +156,6 @@ export const en = {
       hours: "Opening Hours",
       hoursValue: "Tue - Sat: 9:00 AM - 7:00 PM",
       phone: "Phone",
-      phoneValue: "+33 1 23 45 67 89",
       location: "Atelier",
       locationValue: "Paris, France",
     },
