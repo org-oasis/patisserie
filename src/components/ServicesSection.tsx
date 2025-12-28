@@ -62,11 +62,11 @@ const ServicesSection = () => {
                   <CarouselItem key={index} className="pl-4 md:basis-1/2">
                     <div className="h-full p-1">
                       <div
-                        className="bg-card p-8 rounded-lg shadow-soft hover-lift group h-full"
+                        className="bg-card p-8 rounded-lg shadow-soft hover-lift group h-full text-center"
                       >
-                        <div className="flex items-start gap-6">
-                          <div className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center flex-shrink-0 group-hover:bg-champagne/30 transition-colors duration-300">
-                            <service.icon className="w-6 h-6 text-chocolate" />
+                        <div className="flex flex-col items-center gap-6">
+                          <div className="w-16 h-16 rounded-full bg-secondary flex items-center justify-center flex-shrink-0 group-hover:bg-champagne/30 transition-colors duration-300">
+                            <service.icon className="w-8 h-8 text-chocolate" />
                           </div>
                           <div className="flex-1">
                             <h3 className="heading-card text-foreground mb-3">
