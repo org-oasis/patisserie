@@ -2,7 +2,7 @@ name: Deploy Patisserie Parisienne webpage
 
 on:
   push:
-    branches: [ ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:

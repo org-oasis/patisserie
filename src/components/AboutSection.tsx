@@ -42,10 +42,10 @@ const AboutSection = () => {
             {/* Signature */}
             <div className="mt-8 pt-6 border-t border-border">
               <p className="font-serif italic text-2xl text-foreground">
-                Marie-Claire Dubois
+                Maryam T.
               </p>
               <p className="text-sm text-muted-foreground mt-1">
-                Maître Pâtissière
+                Pâtissière | Étudiante
               </p>
             </div>
           </div>
