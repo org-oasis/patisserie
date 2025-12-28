@@ -36,8 +36,12 @@ const Navigation = () => {
         <nav className="flex items-center justify-between">
           {/* Logo with Language Switcher */}
           <div className="flex items-center gap-4">
-            <a href="#" className="font-serif text-xl md:text-2xl text-foreground">
-              La Pâtisserie <span className="text-accent italic">Parisienne</span>
+            <a href="#">
+              <img
+                src="/assets/logo.avif"
+                alt="La Pâtisserie Parisienne logo"
+                className="h-16 w-16 object-contain mx-auto mb-2"
+              />
             </a>
             <LanguageSwitcher />
           </div>
